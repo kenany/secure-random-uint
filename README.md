@@ -5,6 +5,8 @@
 
 Generate a cryptographically secure uint.
 
+[![testling](https://ci.testling.com/kenany/secure-random-uint.png)](https://ci.testling.com/KenanY/secure-random-uint)
+
 ## Example
 
 ``` javascript

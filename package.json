@@ -27,5 +27,17 @@
     "lodash.isfunction": "^2.4.1",
     "lodash.isnumber": "^2.4.1",
     "tape": "^3.0.0"
+  },
+  "testling": {
+    "files": "test/*.js",
+    "browsers": [
+      "ie/10..latest",
+      "chrome/9..latest",
+      "firefox/15..latest",
+      "safari/5.1..latest",
+      "opera/12.1..latest",
+      "iphone/6",
+      "ipad/6"
+    ]
   }
 }
