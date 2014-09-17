@@ -1,5 +1,7 @@
 # secure-random-uint
 
+[![Build Status](https://img.shields.io/travis/KenanY/secure-random-uint.svg)](https://travis-ci.org/KenanY/secure-random-uint)
+
 Generate a cryptographically secure uint.
 
 ## Example
