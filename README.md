@@ -13,7 +13,7 @@ Generate a cryptographically secure uint.
 var secureRandomUint = require('secure-random-uint');
 
 secureRandomUint();
-// =>
+// => 4
 ```
 
 ## Installation
