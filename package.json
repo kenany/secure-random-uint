@@ -17,15 +17,22 @@
     "test": "test"
   },
   "scripts": {
-    "test": "tape test/index.js"
+    "lint": "eslint *.js test/*.js",
+    "tests-only": "tape test/index.js",
+    "coverage": "nyc npm run -s tests-only",
+    "pretest": "npm run -s lint",
+    "test": "npm run -s tests-only"
   },
   "dependencies": {
     "get-random-values": "^1.1.0"
   },
   "devDependencies": {
+    "@kenan/eslint-config": "^4.0.0",
+    "eslint": "^3.10.2",
     "lodash.every": "^2.4.1",
     "lodash.isfunction": "^2.4.1",
     "lodash.isnumber": "^2.4.1",
+    "nyc": "^9.0.1",
     "tape": "^3.0.0"
   },
   "testling": {
