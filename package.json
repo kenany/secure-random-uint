@@ -33,7 +33,7 @@
     "lodash.isfunction": "^2.4.1",
     "lodash.isnumber": "^2.4.1",
     "nyc": "^9.0.1",
-    "tape": "^3.0.0"
+    "tape": "^4.6.2"
   },
   "testling": {
     "files": "test/*.js",
