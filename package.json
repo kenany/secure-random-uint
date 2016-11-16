@@ -31,7 +31,7 @@
     "eslint": "^3.10.2",
     "lodash.every": "^4.6.0",
     "lodash.isfunction": "^3.0.8",
-    "lodash.isnumber": "^2.4.1",
+    "lodash.isnumber": "^3.0.3",
     "nyc": "^9.0.1",
     "tape": "^4.6.2"
   },
