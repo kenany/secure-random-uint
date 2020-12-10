@@ -18,10 +18,8 @@
   },
   "scripts": {
     "lint": "eslint *.js test/*.js",
-    "tests-only": "tape test/index.js",
-    "coverage": "nyc npm run -s tests-only",
     "pretest": "npm run -s lint",
-    "test": "npm run -s tests-only"
+    "test": "nyc tape test/index.js"
   },
   "dependencies": {
     "get-random-values": "^1.2.2"
@@ -35,17 +33,5 @@
     "lodash.isnumber": "3.0.3",
     "nyc": "15.1.0",
     "tape": "5.0.1"
-  },
-  "testling": {
-    "files": "test/*.js",
-    "browsers": [
-      "ie/10..latest",
-      "chrome/9..latest",
-      "firefox/15..latest",
-      "safari/5.1..latest",
-      "opera/12.0..latest",
-      "iphone/6",
-      "ipad/6"
-    ]
   }
 }
