@@ -1,8 +1,11 @@
-var getRandomValues = require('get-random-values');
+const getRandomValues = require('get-random-values');
 
+/**
+ * @returns {number}
+ */
 function secureRandomUint() {
-  var buf = new Uint8Array(4);
-  var dv = new DataView(buf.buffer);
+  const buf = new Uint8Array(4);
+  const dv = new DataView(buf.buffer);
   getRandomValues(buf);
   return dv.getUint32(0);
 }

@@ -1,20 +1,20 @@
-var test = require('tape');
-var isFunction = require('lodash.isfunction');
-var every = require('lodash.every');
-var isNumber = require('lodash.isnumber');
+const test = require('tape');
+const isFunction = require('lodash.isfunction');
+const every = require('lodash.every');
+const isNumber = require('lodash.isnumber');
 
-var secureRandomUint = require('../');
+const secureRandomUint = require('../');
 
-test('exports a function', function(t) {
+test('exports a function', (t) => {
   t.plan(1);
   t.ok(isFunction(secureRandomUint));
 });
 
-test('returns an uint', function(t) {
+test('returns an uint', (t) => {
   t.plan(1);
-  var array = new Array(1000);
-  t.ok(every(array, function() {
-    var uint = secureRandomUint();
+  const array = new Array(1000);
+  t.ok(every(array, () => {
+    const uint = secureRandomUint();
     return isNumber(uint) && uint >= 0 && uint <= 4294967295;
   }));
 });
