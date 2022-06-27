@@ -1,3 +1,19 @@
+## [3.0.0](https://github.com/KenanY/secure-random-uint/compare/2.0.0...3.0.0) (2022-06-27)
+
+
+### ⚠ BREAKING CHANGES
+
+* Node.js v12 is no longer supported.
+
+### Features
+
+* drop Node.js v12 support ([926bfb6](https://github.com/KenanY/secure-random-uint/commit/926bfb60e21038354d84b260806bed5731cdb62b))
+
+
+### Bug Fixes
+
+* **deps:** get-random-values@^2.0.0 ([bd4e0d1](https://github.com/KenanY/secure-random-uint/commit/bd4e0d1fdba9196507b74be13c69e2a7e589c3c3))
+
 ## [2.0.0](https://github.com/KenanY/secure-random-uint/compare/1.0.1...2.0.0) (2021-08-23)
 
 
