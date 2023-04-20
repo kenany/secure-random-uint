@@ -1,6 +1,6 @@
 {
   "name": "secure-random-uint",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "Generate a cryptographically secure uint",
   "keywords": [
     "crypto"

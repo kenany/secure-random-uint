@@ -1,3 +1,10 @@
+## [3.0.1](https://github.com/KenanY/secure-random-uint/compare/3.0.0...3.0.1) (2023-04-20)
+
+
+### Bug Fixes
+
+* **deps:** get-random-values@2.1.0 ([4d9ccf8](https://github.com/KenanY/secure-random-uint/commit/4d9ccf898428bf4859fc669575fd2c2d0488e6ab))
+
 ## [3.0.0](https://github.com/KenanY/secure-random-uint/compare/2.0.0...3.0.0) (2022-06-27)
 
 
