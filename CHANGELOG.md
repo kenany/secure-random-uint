@@ -1,3 +1,13 @@
+## [5.0.0](https://github.com/kenany/secure-random-uint/compare/4.0.1...5.0.0) (2025-09-04)
+
+### ⚠ BREAKING CHANGES
+
+* Node.js v18 is no longer supported.
+
+### Features
+
+* drop Node.js v18 support ([77eb5df](https://github.com/kenany/secure-random-uint/commit/77eb5df09ebd9f6e8594cdf98541a33f3cc938b7))
+
 ## [4.0.1](https://github.com/kenany/secure-random-uint/compare/4.0.0...4.0.1) (2023-10-14)
 
 
