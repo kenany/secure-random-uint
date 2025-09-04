@@ -13,8 +13,10 @@ test('exports a function', (t) => {
 test('returns an uint', (t) => {
   t.plan(1);
   const array = new Array(1000);
-  t.ok(every(array, () => {
-    const uint = secureRandomUint();
-    return isNumber(uint) && uint >= 0 && uint <= 4294967295;
-  }));
+  t.ok(
+    every(array, () => {
+      const uint = secureRandomUint();
+      return isNumber(uint) && uint >= 0 && uint <= 4_294_967_295;
+    })
+  );
 });
