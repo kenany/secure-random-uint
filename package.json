@@ -26,7 +26,7 @@
     "test": "nyc tape test/index.js"
   },
   "dependencies": {
-    "get-random-values": "^3.0.0"
+    "get-random-values": "^4.0.0"
   },
   "devDependencies": {
     "@biomejs/biome": "2.2.2",
