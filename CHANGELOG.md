@@ -1,3 +1,9 @@
+## [5.0.2](https://github.com/kenany/secure-random-uint/compare/5.0.1...5.0.2) (2025-10-27)
+
+### Bug Fixes
+
+* **deps:** get-random-values@4.1.0 ([0c73551](https://github.com/kenany/secure-random-uint/commit/0c735514504360534a07b319453a31d9f958a0ef))
+
 ## [5.0.1](https://github.com/kenany/secure-random-uint/compare/5.0.0...5.0.1) (2025-09-04)
 
 ### Bug Fixes
