@@ -5,7 +5,10 @@
   "keywords": [
     "crypto"
   ],
-  "repository": "github:kenany/secure-random-uint",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kenany/secure-random-uint.git"
+  },
   "license": "MIT",
   "author": "Kenan Yildirim <kenan@kenany.me> (https://kenany.me/)",
   "main": "index.js",
@@ -22,17 +25,15 @@
   "scripts": {
     "lint": "biome check .",
     "release": "semantic-release",
-    "pretest": "npm run -s lint",
     "test": "nyc tape test/index.js"
   },
   "dependencies": {
     "get-random-values": "^4.1.1"
   },
   "devDependencies": {
-    "@biomejs/biome": "2.4.10",
+    "@biomejs/biome": "2.4.14",
+    "@containerbase/semantic-release-pnpm": "1.4.1",
     "@kenan/biome-config": "1.0.6",
-    "@semantic-release/changelog": "6.0.3",
-    "@semantic-release/git": "10.0.1",
     "conventional-changelog-conventionalcommits": "9.3.1",
     "lodash.every": "4.6.0",
     "lodash.isfunction": "3.0.9",
