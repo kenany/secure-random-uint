@@ -11,11 +11,7 @@
     ],
     "@containerbase/semantic-release-pnpm"
   ],
-  "branches": [
-    {
-      "name": "master"
-    }
-  ],
+  "branches": [{ "name": "main" }],
   "preset": "conventionalcommits",
   "tagFormat": "${version}"
 }
