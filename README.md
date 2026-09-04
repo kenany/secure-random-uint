@@ -5,7 +5,7 @@ Generate a cryptographically secure uint.
 ## Example
 
 ``` javascript
-var secureRandomUint = require('secure-random-uint');
+import { secureRandomUint } from 'secure-random-uint';
 
 secureRandomUint();
 // => 4
@@ -14,13 +14,13 @@ secureRandomUint();
 ## Installation
 
 ``` bash
-$ npm install secure-random-uint
+$ pnpm add secure-random-uint
 ```
 
 ## API
 
 ``` javascript
-var secureRandomUint = require('secure-random-uint');
+import { secureRandomUint } from 'secure-random-uint';
 ```
 
 ### `secureRandomUint()`
