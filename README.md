@@ -4,7 +4,7 @@ Generate a cryptographically secure uint.
 
 ## Example
 
-``` javascript
+```javascript
 import { secureRandomUint } from 'secure-random-uint';
 
 secureRandomUint();
@@ -13,13 +13,13 @@ secureRandomUint();
 
 ## Installation
 
-``` bash
+```bash
 $ pnpm add secure-random-uint
 ```
 
 ## API
 
-``` javascript
+```javascript
 import { secureRandomUint } from 'secure-random-uint';
 ```
 
